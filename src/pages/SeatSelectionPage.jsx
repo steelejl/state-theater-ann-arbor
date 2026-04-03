@@ -4,12 +4,12 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import { fetchMovieDetails, getCertification, IMAGE_BASE } from '../api/tmdb';
 
-const imgCalendar = "/assets/calendar.png";
-const imgMinus = "/assets/minus.png";
-const imgPlus = "/assets/plus.png";
-const imgRotateCcw = "/assets/rotate-ccw.png";
-const imgX = "/assets/x.png";
-const imgAccessibility = "/assets/accessibility.png";
+const imgCalendar = "/assets/calendar.svg";
+const imgMinus = "/assets/minus.svg";
+const imgPlus = "/assets/plus.svg";
+const imgRotateCcw = "/assets/rotate-ccw.svg";
+const imgX = "/assets/x.svg";
+const imgAccessibility = "/assets/accessibility.svg";
 
 // A = Available, U = Unavailable, AC = Accessible
 const SEAT_LAYOUT = [

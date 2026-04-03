@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import { fetchNowPlaying, fetchUpcoming, IMAGE_BASE } from '../api/tmdb';
 
 const imgHero = "/assets/hero.jpg";
-const imgArrow = "/assets/arrow.png";
+const imgArrow = "/assets/arrow.svg";
 
 function HeroSection() {
   return (

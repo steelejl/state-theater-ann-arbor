@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const imgWithHeadline = "/assets/logo.png";
-const imgSearchIcon = "/assets/search.png";
+const imgSearchIcon = "/assets/search.svg";
 
 function Logo() {
   return (

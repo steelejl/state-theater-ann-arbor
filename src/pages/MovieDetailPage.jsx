@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import { fetchMovieDetails, getCertification, formatRuntime, IMAGE_BASE } from '../api/tmdb';
 
-const imgClock = "/assets/clock.png";
+const imgClock = "/assets/clock.svg";
 
 const SHOWTIMES = ['7:00pm', '8:00pm', '9:00pm'];
 const TABS = ['Show Times', 'Overview', 'Trailer'];

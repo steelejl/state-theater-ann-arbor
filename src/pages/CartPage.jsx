@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import { fetchMovieDetails, getCertification, IMAGE_BASE } from '../api/tmdb';
 
-const imgCalendar = "/assets/calendar.png";
+const imgCalendar = "/assets/calendar.svg";
 
 const SHOWTIMES = ['7:00pm', '8:00pm', '9:00pm'];
 

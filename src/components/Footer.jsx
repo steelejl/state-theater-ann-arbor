@@ -1,8 +1,8 @@
 const imgWithHeadline = "/assets/logo.png";
 const imgMap = "/assets/map.png";
-const imgSocialX = "/assets/social-x.png";
-const imgSocialFb = "/assets/social-fb.png";
-const imgSocialIg = "/assets/social-ig.png";
+const imgSocialX = "/assets/social-x.svg";
+const imgSocialFb = "/assets/social-fb.svg";
+const imgSocialIg = "/assets/social-ig.svg";
 
 const navColumns = [
   { heading: 'Navigate', links: ['Our Theaters', 'About', 'Blog', 'Contact'] },
