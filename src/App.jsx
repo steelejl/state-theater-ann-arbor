@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage';
 import MovieDetailPage from './pages/MovieDetailPage';
 import CartPage from './pages/CartPage';
 import SeatSelectionPage from './pages/SeatSelectionPage';
+import CheckoutPage from './pages/CheckoutPage';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Route path="/movie/:id" element={<MovieDetailPage />} />
         <Route path="/movie/:id/cart" element={<CartPage />} />
         <Route path="/movie/:id/seats" element={<SeatSelectionPage />} />
+        <Route path="/movie/:id/checkout" element={<CheckoutPage />} />
       </Routes>
     </BrowserRouter>
   );

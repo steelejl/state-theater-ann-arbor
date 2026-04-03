@@ -303,6 +303,7 @@ export default function SeatSelectionPage() {
               Cancel
             </button>
             <button
+              onClick={() => navigate(`/movie/${id}/checkout`)}
               className="flex-1 bg-[#ffd03d] text-[#030f10] font-bold text-xl rounded-2xl hover:bg-[#e6bb35] transition-colors"
               style={{ paddingTop: '16px', paddingBottom: '16px' }}
             >
